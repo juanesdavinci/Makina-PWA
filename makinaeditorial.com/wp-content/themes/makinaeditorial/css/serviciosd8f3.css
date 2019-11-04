@@ -1,0 +1,24 @@
+.page-template-page-servicios h1{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+.page-template-page-servicios h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+p, li{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.main-container a{
+	color: #ed0c2d !important;
+}
+
+.servicios-subtitulo{
+    font-size: 1.3em;
+}
+

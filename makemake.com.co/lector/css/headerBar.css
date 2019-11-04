@@ -1,0 +1,50 @@
+.hideInact{
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;       
+	transition: all 1s;
+	top: 0;
+
+	
+}
+
+.hideInact:hover{
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;       
+	transition: all 1s;
+	top: 0 !important;
+
+	
+}
+
+.hideInact.hideHeader {
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;       
+	transition: all 1s;
+	top: -75px;
+}
+
+.movil-oreja{
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;       
+	transition: all 1s;
+	opacity: 1;
+
+	
+}
+.fadeAwayt{
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;       
+	transition: all 1s;
+	opacity: 0; 
+	
+}

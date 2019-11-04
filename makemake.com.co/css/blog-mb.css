@@ -1,0 +1,187 @@
+.mb-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mb-flex-element{
+    width: 50%;
+    padding: 5%;
+}
+
+.mb-content{
+    padding: 20px!important;
+}
+
+.mb-content p{
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 0px!important;
+    margin-bottom: 20px;    
+}
+
+.mb-content h1{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 40px;   
+}
+
+.mb-content h2{
+    font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.mb-content h3{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;  
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.mb-image15{
+    width: 15%;
+    padding-right: 10px;
+    
+}
+.mb-image15 img {
+    display: block;
+    margin: auto;
+	width: 100%;
+}
+
+.mb-image img{display: block; margin: auto; width: 100%}
+.mb-image100{width: 100%;}
+
+.mb-w95{width: 95%;}
+.mb-w90{width: 90%;}
+.mb-w85{width: 85%;}
+.mb-w80{width: 80%;}
+.mb-w75{width: 75%;}
+.mb-w70{width: 70%;}
+.mb-w65{width: 65%;}
+.mb-w60{width: 60%;}
+.mb-w55{width: 55%;}
+.mb-w50{width: 50%;}
+.mb-w45{width: 45%;}
+.mb-w40{width: 40%;}
+.mb-w35{width: 35%;}
+.mb-w30{width: 30%;}
+.mb-w25{width: 25%;}
+.mb-w20{width: 20%;}
+.mb-w15{width: 15%;}
+.mb-w10{width: 10%;}
+.mb-w5{width: 5%;}
+
+
+.mb-recommend{
+    text-align: center;
+    width: 50%;
+ 
+}
+
+.mb-footerimg {
+    width: 80%;
+    align-content: center;
+    margin: 50px auto;
+    display: block;
+}
+
+.mb-w65{
+    width: 65%;
+}
+
+
+
+.mb-btnleer {
+    display: table;
+    background-color: #FFD100;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 18px 40px;
+    margin: 40px auto;
+    cursor: pointer;
+}
+hr{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .mb-flex{
+        flex-direction: column;
+    }
+
+    .mb-flex-element{
+        width: 100%;
+    }
+    
+    .mb-image15{
+    width: 100%;
+    }
+	
+	.mb-image15 img {
+	width: 70%;
+	}
+	
+    .mb-recommend{
+        width: 100%;
+
+    }
+
+    .mb-footerimg{
+        width: 100%;
+    }
+
+    .mb-w65{
+        width: 100%;
+    }
+	
+	.mb-w80{
+        width: 100%;
+    }
+    .mb-btnleer{
+        width: 100%;
+    }
+	
+	.mb-w95{width: 100%;}
+	.mb-w90{width: 100%;}
+	.mb-w85{width: 100%;}
+	.mb-w80{width: 100%;}
+	.mb-w75{width: 100%;}
+	.mb-w70{width: 100%;}
+	.mb-w65{width: 100%;}
+	.mb-w60{width: 100%;}
+	.mb-w55{width: 100%;}
+	.mb-w50{width: 100%;}
+	.mb-w45{width: 100%;}
+	.mb-w40{width: 100%;}
+	.mb-w35{width: 100%;}
+	.mb-w30{width: 100%;}
+	.mb-w25{width: 100%;}
+	.mb-w20{width: 100%;}
+	.mb-w15{width: 100%;}
+	.mb-w10{width: 100%;}
+	.mb-w5{width:100%;}
+
+    
+} 
+
+

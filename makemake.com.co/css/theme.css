@@ -1,0 +1,43 @@
+
+.modal-container {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.model-close {
+  background: #5B5BC2 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+  position: relative;
+  right: -16px;
+  top: -16px;
+  width: 32px;
+  z-index: 9999;
+  padding: 5px 15px 5px 15px;
+
+}
+.model-close:hover {
+  background: #6D6DE2 none repeat scroll 0 0;
+
+
+}
+
+.close-modal-button{
+    color: black;
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+    top: -7px;
+    left: -6px;
+}
+
+
+.modal-overflow{
+	overflow-x: visible !important;
+	overflow-y: visible !important;
+}
+
+

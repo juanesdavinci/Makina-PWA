@@ -1,0 +1,184 @@
+/*========================================
+				COVER
+=========================================*/
+#intro-text{
+	padding: 8% 15% 3% 15%;
+	font-size: 2.5em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.thumbHover{
+    background-color: rgba(0,0,0,0);
+    transition: background-color .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+.cover-metadata{
+    opacity: 0;
+    transition: .2s;
+	position: absolute;
+	left: 0;
+	right: 0;
+	font-size: 1em;
+	max-width: 250px;
+	font-family: 'Roboto Slab', serif;
+	
+	text-align: right;
+    
+}
+
+.cover-metadata{
+	font-weight: 700;
+	font-size: 0.8em;
+	
+}
+
+.cover-metadata h2{
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+.cover-metadata::after{
+	content: '';
+	position: absolute;
+	
+	border: 1px solid #ed0c2d;
+	right: -5px;
+	height: 100%;
+	top: 0;
+}
+
+.black-white{
+    transition: .2s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.black-white:hover{
+    
+    transform: scale(1.03);
+    z-index: 4;
+}
+
+.thumbHover:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.thumbHover:hover .cover-metadata{
+    opacity: 1;
+}
+
+.cover-main-filter{
+	font-family: 'Roboto Slab', serif;
+}
+
+.cover-filter{
+	border-right: 1px solid #000;
+	cursor: pointer;
+	font-weight: 700;
+	text-transform: lowercase;
+}
+
+.logobn{
+    margin: 0 auto;
+    display: block;
+    margin-top: 10%;
+    opacity: 0;
+}
+
+
+.banner-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 6.4vw;
+    line-height: 1.16;
+    font-weight: 700;
+    padding: 10% 0 20% 0;
+    letter-spacing: -1px;
+}
+
+.banner-text::after {
+	content: '|';
+	display: inline;
+    font-size: 1.2em;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.cover-description{
+    font-family: 'Roboto Slab', serif;
+}
+.cover-cliente img{
+    display: block;
+    margin: 0 auto;
+}
+
+.clientes-title{
+    display: table;
+    margin: 0 auto;
+}
+
+.cover-icon{
+    max-width: 120px!important;
+}
+
+.cover-separator{
+    border-top: 5px solid #ed0c2d;
+    width: 20%;
+    margin: 4% auto;
+    margin-bottom: 6%;
+}
+
+.cover-separator2{
+    border-top: 5px solid #ed0c2d;
+    width: 20%;
+    margin: 5% auto ;
+    margin-bottom: 10%;
+}
+
+@media (min-width: 1400px){
+    .col-xl-3{
+        flex: 0 0 20% !important;
+        max-width: 20% !important;
+    }
+}
+
+@media (max-width: 776px){
+    .banner-text{
+        font-size: 11vw;
+        padding: 20% 0 60% 0;
+        
+    }
+}
+
+
+

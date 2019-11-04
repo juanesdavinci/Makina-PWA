@@ -1,0 +1,299 @@
+.mm-redimir{
+    background: url('../../images/bkg.svg') repeat;
+    background-size: cover;
+}
+.mm-redimircontainer{
+    background-color: #fff;
+    border-left: 3px solid #F4F4F4;
+    border-right: 3px solid #F4F4F4;
+	padding-bottom: 200px!important;
+}
+
+input{
+    padding-left: 15px;
+}
+
+form p, .mm-redimir-interesa p{
+    color: #5B5BC2;
+    font-size: 1.15em;
+}
+
+.form-control{
+    font-size: 16px;
+    padding: 18px 12px;
+}
+
+.mm-redimir_title {
+    text-align: center;
+    line-height: 1.3;
+    color: #4D4D4D;
+    margin-top: 40px!important;
+}
+
+.mm-redimir_title--institution{
+    font-size: 3em;
+    color: #5B5BC2;
+}
+
+.mm-redimir_title span, .mm-redimir_steps .step{
+    color: #fff;
+    background-color: #5B5BC2;
+    border-radius: 50px;
+}
+.mm-redimir_steps {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mm-redimir_title span{
+    padding: 9px 22px; 
+}
+.mm-redimir_steps span{
+    padding: 4px 10px;
+}
+
+.mm-redimir_steps hr{
+    flex-grow: 3;
+    margin: 0 20px!important;
+}
+
+.step-inactive{
+    background-color: #B2B2B2!important;
+}
+
+.mm-redimir_form{
+    padding: 0 15%;
+}
+
+.mm-redimir_submit{
+    background-color: #F2D042;
+    padding: 8px 12px !important;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.mm-redimir_submit:focus, .mm-redimir_submit:active, .mm-redimir_submit:hover{
+    background-color: #5B5BC2!important;
+    color: #fff;
+    outline: none;
+}
+
+
+.mm-demo{
+	background-color: #92be59;
+	color: #fff;
+	text-transform: uppercase; 
+	width: 100%;
+    margin-bottom: 20px;
+}
+
+.mm-codigo{
+	background-color: #6785da;
+	color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+    margin-bottom: 20px;
+}
+
+.mm-redimir_alerts {
+   text-align: center;
+   width: 70%;
+   margin: 0 auto;
+
+}
+
+.mm-redimir_redalert{
+    color: #F0581F;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.mm-redimir_greenalert{
+    color: #92be59;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.mm-redimir-terms{
+    color: #B2B2B2;
+    font-weight: 300 !important;
+}
+
+.mm-redimir_questioncode{
+    position: relative;
+}
+
+.mm-redimir_questioncodeactivate{
+    cursor: pointer;
+}
+
+.mm-redimir_questioncodeactivate:hover .mm-redimir_questionhover {
+    display: block;
+}
+
+.mm-redimir_questionhover {
+    display: none;
+    background-color: rgba(0,0,0,0.85);
+    padding: 15px;
+    color: #fff;
+    font-weight: 300 !important;
+    position: absolute;
+    left: 332px;
+    top: -20px;
+}
+
+.mm-redimir_questionhover1{
+	left: 221px;
+    z-index: 1;
+}
+.mm-redimir_questionhover2{
+	left: 108px;
+    z-index: 1;
+}
+
+.mm-redimir_questionhover3{
+    left: 490px;
+    z-index: 1;
+}
+    
+
+.mm-redimir_questionhover::before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent rgba(0,0,0,0.85) transparent transparent;
+}
+
+.mm-redimir_createaccount{
+    padding: 3% 13%;
+}
+
+.mm-redimir-interesa{
+    background-color: #F4F4F4;
+}
+
+.form-check-input{
+    width: auto!important;
+    height: auto!important;
+}
+
+.mm-redimir-interesa label{
+    font-weight:400;
+    margin-left: 10px;
+    font-size: 1.15em;
+}
+
+.mm-redimir_sendaccount {
+    font-size: 1.3em;
+    margin-bottom: 60px !important;
+    margin-top: 40px !important;
+}
+
+.mm-redmir_textlogin{
+    text-align: center;
+    font-size: 1.3em;
+    width: 52%;
+    margin: 0 auto;
+   line-height: 1.5;
+}
+
+.mb-6{
+    margin-bottom:80px;
+}
+.mm-redimir_correo{
+    font-weight: 700;
+}
+
+.mm-redimir-login .container{
+   max-width: 1000px;
+}
+
+.mm-login-title{
+	font-size: 3em;
+	color: #000;
+	text-align: center;
+}
+
+.mm-login-bg{
+	background-color: #f4f4f4;
+}
+
+.mm-demo-code{
+	padding: 3% 13%;
+}
+
+.mm-demo-code p{
+	font-size: 1.3em;
+	color: #f0581f;
+	text-align: center;
+	font-weight: 600;
+}
+
+.mm-redimir_data{
+    background-color: #F4F4F4;
+    padding: 5%;
+}
+
+.mm-redimir_data h2{
+    color: #5B5BC2;
+    font-family: 'Raleway' !important;
+    font-size: 1.5em;
+}
+
+.mm-redimir_data h3{
+    font-family: 'Raleway' !important;
+    font-size: 1.2em;
+    color: #4D4D4D;
+}
+
+.mm-redimir_data p, .mm-redimir_additional-data p{
+    font-size: 1.2em;
+}
+
+.mm-redimir_data a{
+    color: #5B5BC2;
+    font-weight: 700;
+}
+
+.mm-redmir_textlogin span{
+    font-weight: 700;
+}
+
+.mm-redimir_select {
+  border-radius: 6px;
+  font-size: 1.2em;
+  padding: 9px;
+  height: 40px;
+
+}
+
+.mm-redimir_select:active, .mm-redimir_select:focus{
+    border-color: rgba(91, 91, 194, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(91, 91, 194, 0.6);
+    outline: 0 none;
+}
+
+@media screen and (max-width: 992px) {
+  .mm-redimir_submit{
+	margin-top: 20px;
+  }
+	.mm-redimir_form {
+		padding: 0 0%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mm-redmir_textlogin {
+	  width: 100%;
+	}
+}
+
+
+
